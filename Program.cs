@@ -1,7 +1,6 @@
 ﻿using System;
 
 int number = 246;  //enter a number in here
-int startingNumber = number; // storing here for printing purpose
 bool flag = true;  //for resetting the main program
 int modNum = 2, numCount = 0;
 string str = "";
@@ -14,6 +13,7 @@ while (flag)
     try
     {
         number = int.Parse(inputText);
+        int startingNumber = number; // storing here for printing purpose
 
         //Algorithm start here
         while (number > modNum)
