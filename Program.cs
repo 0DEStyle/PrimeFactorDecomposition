@@ -2,7 +2,7 @@
 
 int number = 246;  //enter a number in here
 int startingNumber = number; // storing here for printing purpose
-bool flag = true;
+bool flag = true;  //for resetting the main program
 int modNum = 2, numCount = 0;
 string str = "";
 
@@ -19,7 +19,7 @@ while (flag)
         while (number > modNum)
         {
             if (0 == number % modNum)
-            {
+            {                                                                                                                                                                          
                 number = number / modNum;
                 numCount++;
 
